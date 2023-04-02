@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: fleetman-webapp
+  name: jaszui-webapp
 
 spec:
   # This defines which pods are going to be represented by this Service
@@ -20,7 +20,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fleetman-queue
+  name: jaszui-queue
 
 spec:
   # This defines which pods are going to be represented by this Service
@@ -43,7 +43,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fleetman-position-tracker
+  name: jaszui-position-tracker
 
 spec:
   # This defines which pods are going to be represented by this Service
@@ -62,7 +62,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fleetman-api-gateway
+  name: jaszui-api-gateway
 
 spec:
   # This defines which pods are going to be represented by this Service
